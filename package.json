@@ -1,12 +1,12 @@
 {
-  "name": "vue-owl-carousel",
+  "name": "vue-owl-carousel2",
   "description": "VueJS wrapper for Owl Carousel",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "author": {
     "name": "Leo Chien <s950329@gmail.com>"
   },
   "bugs": {
-    "url": "https://github.com/s950329/vue-owl-carousel/issues"
+    "url": "https://github.com/windstep/vue-owl-carousel/issues"
   },
   "keywords": [
     "vuejs",

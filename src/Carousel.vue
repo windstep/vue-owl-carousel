@@ -226,11 +226,13 @@ export default {
       prevHandler: 'carousel_prev_' + this.generateUniqueId(),
       elementHandle: 'carousel_' + this.generateUniqueId(),
       nextHandler: 'carousel_next_' + this.generateUniqueId(),
+
+      owl: null
     };
   },
 
   mounted: function() {
-    const owl = $('#' + this.elementHandle).owlCarousel({
+    this.owl = $('#' + this.elementHandle).owlCarousel({
       items: this.items,
       margin: this.margin,
       loop: this.loop,
@@ -320,6 +322,9 @@ export default {
   methods: {
     generateUniqueId() {
       return Math.random().toString(36).substring(2, 15);
+    },
+    updateOwl() {
+      this.owl.trigger('refresh.owl.carousel');
     },
   },
 };

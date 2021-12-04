@@ -1,7 +1,7 @@
 {
-  "name": "vue-owl-carousel-windstep",
+  "name": "vue-owl-carousel2-windstep",
   "description": "VueJS wrapper for Owl Carousel",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": {
     "name": "Leo Chien <s950329@gmail.com>"
   },
